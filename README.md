@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/r-%23276DC3.svg?style=plastic&logo=r&logoColor=white)
 
-This repo including the analysis code in the paper, **Regulatory networks of KRAB zinc finger genes and transposable elements changed during human brain evolution and disease** (DOI: 10.1101/2023.12.18.569574). You can refer to the script based on the description below.
+This repo including the analysis code in the paper, **Regulatory networks of KRAB zinc finger genes and transposable elements changed during human brain evolution and disease (*eLife* 2025)** (<https://doi.org/10.7554/eLife.103608.1>). You can refer to the script based on the description below.
 
 ![](figures/Graphical_Abstract_TEKRABber.png)
 
@@ -24,7 +24,7 @@ Two independent RNA-seq dataset were used in this study.
 
 -   Primate Brain Data (Cross-species): [GSE127898](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE127898)
 
--   Mayo Data (Control-Alzheimer's disease): [syn5550404](https://www.synapse.org/#!Synapse:syn5550404)
+-   Mayo Data (Control-Alzheimer's disease): [syn5550404](https://www.synapse.org/#!Synapse:syn5550404) (require License)
 
 ## Scripts
 
@@ -33,3 +33,9 @@ All scripts are manage in the `scripts` folder. You can view the script by navig
 ## Contact
 
 We try to provide the source code as detailed as we can. If you have any questions, please contact me using the email below. Email: [yao-chung.chen\@fu-berlin.de](mailto:yao-chung.chen@fu-berlin.de)
+
+## Citation
+
+Chen Yao-Chung, Maupas Arnaud, Nowick Katja (2025) Regulatory networks of KRAB zinc finger genes and transposable elements changed during human brain evolution and disease eLife 14:RP103608
+
+<https://doi.org/10.7554/eLife.103608.1>
