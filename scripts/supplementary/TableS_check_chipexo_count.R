@@ -25,8 +25,7 @@ library(dplyr)
 library(ggplot2)
 library(ggpubr)
 
-df_count <- read.csv("../../tables/counts.csv")
-kznf_infer <- read.csv("/home/yaochung41/github/pBrain/data/kznf_bucket.csv")
+df_count <- read.csv("tables/counts.csv")
 
 df_merge <- df_count %>%
     inner_join(kznf_infer[,c(2,6)], join_by(gene==external_gene_name)) %>%
